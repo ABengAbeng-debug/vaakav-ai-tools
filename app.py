@@ -6,7 +6,7 @@ import re
 # --- 配置区 ---
 RAINFOREST_API_KEY = "7FB353319E0A44B8976692998F97B976" # 替换为你申请的Key
 genai.configure(api_key="AIzaSyCAvh3QyI6gXo2EaSO6heis6DBKhK5KJ5g") # 替换为你的Gemini Key
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
 def get_amazon_data(url):
     """通过 Rainforest API 抓取亚马逊实时数据"""
